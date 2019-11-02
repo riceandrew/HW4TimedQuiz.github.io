@@ -275,7 +275,8 @@ function quest5() {
   })
 
 }
-
+//displays the number of questions that you got correct 
 function displayresults(){
-  div1El.innerHTML = `You got ${count} correct!`
+  body.innerHTML = `You got ${count} correct!`
+  
 }
