@@ -239,4 +239,11 @@ function startquiz() {
     })
     }
 
+    var userin = document.createElement("input")
+
+    function results() {
+      div1El.textContent = userin
+    }
+    results()
+
 
